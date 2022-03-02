@@ -1,0 +1,26 @@
+{
+  "name": "loginform",
+  "version": "1.0.0",
+  "description": "login form",
+  "main": "login.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "nodemon login.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakshamverma1222K/Login-Form.git"
+  },
+  "author": "Saksham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sakshamverma1222K/Login-Form/issues"
+  },
+  "homepage": "https://github.com/sakshamverma1222K/Login-Form#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "nodemon": "^2.0.15"
+  }
+}
